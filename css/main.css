@@ -99,7 +99,32 @@ textarea {
 
 footer
 {
-    background-color: pink;
+    background-image: url("../img/classy_fabric.png");
+}
+
+footer #logo_footer
+{
+    float: left;
+    margin: 1% 0 0 20%;
+}
+
+footer #info
+{
+    display: inline-block;
+    margin: 1% 0 1% 10%;
+}
+
+footer #info span
+{
+    color: #faf9f9;
+    display: block;
+}
+
+footer #social
+{
+    display: inline-block;
+    float: right;
+    margin: 2% 20% 0 0;
 }
 
 header
@@ -157,6 +182,11 @@ nav ul li:hover
 #contenido
 {
     padding: 1%;
+}
+
+#inicio_contenido
+{
+    margin: 0 15% 0 15%;
 }
 
 #slider
