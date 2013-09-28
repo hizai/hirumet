@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="favicon.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+
+        <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header><img src="img/LogoH.gif" alt="">HIRUMET</header>        
+        <nav>
+            <ul>
+                <li><a href="index.html">Empresa</a></li>
+                <li><a href="instalaciones.html">Instalaciones</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="distribucion.html">Distribución</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="localizacion.html">Localización</a></li>
+            </ul>
+        </nav>
+        <div id="contenido">
+            <div id="contact-form" class="clearfix">  
+                <h1>Contacto</h1>  
+                <h2>Rellena el siguiente formulario y ponte en contacto con nosotros:</h2>  
+                <ul id="errors" class="">  
+                    <li id="info">Hay algunos problemas en el envio del formulario:</li>  
+                </ul>  
+                <p id="success">Gracias por enviar tu comentario!</p>  
+                <form method="post" action="process.php">  
+                    <label for="name">Nombre: <span class="required">*</span></label>  
+                    <input type="text" id="name" name="name" value="" placeholder="Nombre" required="required" autofocus="autofocus" />
+
+                    <label for="name">Empresa: <span class="required">*</span></label>  
+                    <input type="text" id="name" name="name" value="" placeholder="Empresa" required="required" autofocus="autofocus" />  
+
+                    <label for="name">Departamento: <span class="required">*</span></label>  
+                    <input type="text" id="name" name="name" value="" placeholder="Departamento" required="required" autofocus="autofocus" />    
+                      
+                    <label for="email">Email: <span class="required">*</span></label>  
+                    <input type="email" id="email" name="email" value="" placeholder="nombre@ejemplo.com" required="required" />  
+                      
+                    <label for="telephone">Telefono: </label>  
+                    <input type="tel" id="telephone" name="telephone" value="" />  
+                      
+                    <label for="message">Observaciones: <span class="required">*</span></label>  
+                    <textarea id="message" name="message" placeholder="El mensaje debe de tener mas de 20 caracteres" required="required" data-minlength="20"></textarea>  
+                      
+                    <span id="loading"></span>  
+                    <input type="submit" value="Enviar" id="submit-button" />  
+                    <p id="req-field-desc"><span class="required">*</span> indica campo obligatorio.</p>  
+                </form>  
+            </div>  
+        </div>
+        <footer>
+            <div id="logo_footer">
+                <img src="img/LogoH.gif">
+            </div>
+            <div id="info">
+                <span>HIRUMET, S.L. / METALBEMA, S.L.</span>
+                <span>Ctra. Durango - Elorrio, s/n - Valle de Atxondo</span>
+                <span>48291 APATAMONASTERIO (Bizkaia)</span>
+                <span>Telf: 94 658 24 12    -   Fax: 94 658 27 51</span>
+            </div>
+            <div id="social">
+                <img src="img/twitter-icon.png">
+                <img src="img/facebook-icon.png">
+                <img src="img/google-icon.png">
+            </div>
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
